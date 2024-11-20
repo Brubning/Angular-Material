@@ -1,0 +1,7 @@
+@use '@angular/material' as mat;
+
+mat-chip-set {
+    @include mat.chips-overrides((
+        elevated-container-color: green
+    ));
+}

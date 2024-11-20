@@ -5,9 +5,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatDivider } from '@angular/material/divider';
 
-import { GridListOneComponent } from './components/grid-list-one/grid-list-one.component';
-import { GridListTwoComponent } from './components/grid-list-two/grid-list-two.component';
+import { ChipsComponent } from './components/chips/chips.component';
+import { GridListComponent } from './components/grid-list/grid-list.component';
 
 @Component({
     selector: 'app-root',
@@ -18,8 +19,9 @@ import { GridListTwoComponent } from './components/grid-list-two/grid-list-two.c
       MatListModule,
       MatSidenavModule,
       MatToolbarModule,
-      GridListOneComponent,
-      GridListTwoComponent
+      MatDivider,
+      ChipsComponent,
+      GridListComponent
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss'

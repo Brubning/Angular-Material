@@ -1,0 +1,35 @@
+@use '@angular/material' as mat;
+
+@mixin grid-list-styles {
+    mat-grid-list {
+        mat-grid-tile:nth-child(1){ background: var(--mat-sys-primary); }
+        mat-grid-tile:nth-child(2){ background: var(--mat-sys-on-primary); }
+        mat-grid-tile:nth-child(3){ background: var(--mat-sys-primary-container); }
+        mat-grid-tile:nth-child(4){ background: var(--mat-sys-on-primary-container); }
+        
+        mat-grid-tile:nth-child(5){ background: var(--mat-sys-secondary); }
+        mat-grid-tile:nth-child(6){ background: var(--mat-sys-on-secondary); }
+        mat-grid-tile:nth-child(7){ background: var(--mat-sys-secondary-container); }
+        mat-grid-tile:nth-child(8){ background: var(--mat-sys-on-secondary-container); }
+        
+        mat-grid-tile:nth-child(9){ background: var(--mat-sys-tertiary); }
+        mat-grid-tile:nth-child(10){ background: var(--mat-sys-on-tertiary); }
+        mat-grid-tile:nth-child(11){ background: var(--mat-sys-tertiary-container); }
+        mat-grid-tile:nth-child(12){ background: var(--mat-sys-on-tertiary-container); }
+        
+        mat-grid-tile:nth-child(13){ background: var(--mat-sys-inverse); }
+        mat-grid-tile:nth-child(14){ background: var(--mat-sys-on-inverse); }
+        mat-grid-tile:nth-child(15){ background: var(--mat-sys-inverse-container); }
+        mat-grid-tile:nth-child(16){ background: var(--mat-sys-on-inverse-container); }
+        
+        mat-grid-tile:nth-child(17){ background: var(--mat-sys-surface); }
+        mat-grid-tile:nth-child(18){ background: var(--mat-sys-on-surface); }
+        mat-grid-tile:nth-child(19){ background: var(--mat-sys-surface-container); }
+        mat-grid-tile:nth-child(20){ background: var(--mat-sys-on-surface-container); }
+        
+        mat-grid-tile:nth-child(21){ background: var(--mat-sys-error); }
+        mat-grid-tile:nth-child(22){ background: var(--mat-sys-on-error); }
+        mat-grid-tile:nth-child(23){ background: var(--mat-sys-error-container); }
+        mat-grid-tile:nth-child(24){ background: var(--mat-sys-on-error-container); }
+    }
+}

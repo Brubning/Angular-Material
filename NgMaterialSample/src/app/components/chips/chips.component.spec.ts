@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GridListOneComponent } from './grid-list-one.component';
+import { ChipsComponent } from './chips.component';
 
-describe('GridListOneComponent', () => {
-  let component: GridListOneComponent;
-  let fixture: ComponentFixture<GridListOneComponent>;
+describe('ChipsComponent', () => {
+  let component: ChipsComponent;
+  let fixture: ComponentFixture<ChipsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GridListOneComponent]
+      imports: [ChipsComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GridListOneComponent);
+    fixture = TestBed.createComponent(ChipsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
